@@ -29,7 +29,6 @@
     "id": 32768563,
     "text": "BioLink_test",
     "children": [
-      null,
       "https://github.com/AtlasOfLivingAustralia/BioLink_test"
     ],
     "state": {
@@ -276,7 +275,6 @@
     "id": 32834983,
     "text": "ala-datamob",
     "children": [
-      null,
       "https://github.com/AtlasOfLivingAustralia/ala-datamob"
     ],
     "state": {
@@ -458,7 +456,6 @@
     "id": 22132634,
     "text": "ala-soils2sat",
     "children": [
-      null,
       "https://github.com/AtlasOfLivingAustralia/ala-soils2sat"
     ],
     "state": {
@@ -1745,7 +1742,6 @@
     "id": 50964310,
     "text": "open-delta",
     "children": [
-      null,
       "https://github.com/AtlasOfLivingAustralia/open-delta"
     ],
     "state": {
@@ -1771,7 +1767,6 @@
     "id": 69839920,
     "text": "ozAtlas-android-kotlin",
     "children": [
-      null,
       "https://github.com/AtlasOfLivingAustralia/ozAtlas-android-kotlin"
     ],
     "state": {
@@ -1784,7 +1779,6 @@
     "id": 69839789,
     "text": "ozAtlas-iOS",
     "children": [
-      null,
       "https://github.com/AtlasOfLivingAustralia/ozAtlas-iOS"
     ],
     "state": {
@@ -2018,7 +2012,6 @@
     "id": 61513953,
     "text": "seasonal-calendar",
     "children": [
-      null,
       "https://github.com/AtlasOfLivingAustralia/seasonal-calendar"
     ],
     "state": {
@@ -2070,7 +2063,6 @@
     "id": 22367462,
     "text": "spatial-database",
     "children": [
-      null,
       "https://github.com/AtlasOfLivingAustralia/spatial-database"
     ],
     "state": {
@@ -2109,7 +2101,6 @@
     "id": 22367457,
     "text": "spatial-logger",
     "children": [
-      null,
       "https://github.com/AtlasOfLivingAustralia/spatial-logger"
     ],
     "state": {
