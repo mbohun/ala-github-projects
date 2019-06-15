@@ -4,22 +4,42 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="dist/jstree.min.js"></script>
   </head>
-  
   <body>
     <div id="container">
     </div>
 
   <script>
     $(function() {
-    	$('#container').jstree({
-    		'core' : {
-    			'data' : {
-    				"url" : "./input_for_jsTree.json",
-            			"dataType" : "json" // needed only if you do not supply JSONheaders
-    			}
-    		}
-    	});
-    });
+        fetch('https://api.github.com/orgs/AtlasOfLivingAustralia/repos')
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(myJson) {
+                var input_data = [];
+                myJson.forEach(function(repo) {
+                    input_data.push({
+                        'text': repo.name,
+                        'id':   repo.id,
+                        'state': {
+                          'opened':   false,
+                          'disabled': false,
+                          'selected': false
+                        },
+                        'children' : [repo.description, repo.html_url]
+                    });
+                });
+
+                console.log(input_data);
+
+                console.log("BEFORE jstree");
+
+                $('#container').jstree({
+                    'core' : {
+                        'data': input_data
+                    }
+                });
+            });
+      })
   </script>
   </body>
 </html>
