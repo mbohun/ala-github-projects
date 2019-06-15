@@ -25,7 +25,16 @@
                           'disabled': false,
                           'selected': false
                         },
-                        'children' : [repo.description, repo.html_url]
+                        'children' : [
+                            {
+                                'text': repo.description,
+                                'icon': 'jstree-file'
+                            },
+                            {
+                                'text': repo.html_url,
+                                'icon': 'jstree-file'
+                            }
+                        ]
                     });
                 });
 
